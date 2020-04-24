@@ -1,0 +1,16 @@
+{
+    "todosG": [
+        {
+            "title": "Task1",
+            "responsible": "Mark",
+            "description": "Lorem impsum",
+            "priority": "low"
+        },
+        {
+            "title": "Task2",
+            "responsible": "Juan",
+            "description": "Lorem impsum",
+            "priority": "medium"
+        }
+    ]
+}
