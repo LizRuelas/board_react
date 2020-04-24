@@ -34,7 +34,7 @@ class App extends Component {
     const todoS = this.state.todos.map((todo, i) => {
       return(
         <div className="col-md-4" key={i}>
-          <div className="card mt-4">
+          <div className="card">
             <div className="card-header">
               <h3>{todo.title}</h3>  
               <span className="badge badge-pill badge-danger ">
@@ -68,8 +68,12 @@ class App extends Component {
 
         <div className="container">
           <div className="row mt-4">
-            <div className="col-md-4 text-center">
+            <div className="col-md-12" align="center">
               <img src={logo} className="App-logo" alt="logo" />
+            </div>  
+          </div>
+          <div className="row ">
+            <div className="col-md-4">
               <TodoForm onAddTodo={this.handleAddTodo} />
             </div>
             <div className="col-md-8">
